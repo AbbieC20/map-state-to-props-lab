@@ -16,6 +16,7 @@ class Users extends Component {
     )
   }
 }
+
 const mapStateToProps = (state) => {
   return {
     users: state.users,
@@ -23,5 +24,6 @@ const mapStateToProps = (state) => {
   };
 }
 
-
 export default connect(mapStateToProps)(Users);
+
+
